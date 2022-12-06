@@ -28,6 +28,8 @@ use Cake\ORM\Locator\TableLocator;
 use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
 
+use App\Middleware\AuthenticationMiddleware;
+
 /**
  * Application setup class.
  *
